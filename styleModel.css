@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hModel{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    padding: 1.5% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 80px;
+}
+
+.navbarMerci{
+    flex: 2;
+    text-align: right;
+}
+
+.navbarMerci ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.navbarMerci ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 4px 10px;
+}
+
+.navbarMerci ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.titleModel{
+    margin: 70px 100px 53px 100px;
+}
+
+.textTitleModel{
+    font-size: 46px;
+    font-weight: 700;
+    padding: 0 0 17.5px 0;
+}
+
+.line{
+    height: 0px;
+    border: 2px solid #000000;
+    padding: 0 105px 0 0;
+}
+
+.carModel{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.categories{
+    padding: 0 140px 25px 100px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.bastonBertin{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.model1{
+    padding: 0 0 60px 100px;
+}
+
+.line2{
+    width: 180px;
+    height: 0px;
+    border: 2px solid #000000; 
+}
+
+.allPicture{
+    display: flex;
+}
+
+.space{
+    padding: 10px;
+}
+
+.menuModel ul li{
+    list-style: none;
+    padding: 8px 0;
+    position: relative;
+}
+
+.menuModel ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.bbSet{
+    padding: 0 70px 0 70px;
+}
+
+.pic{
+    padding: 0;
+    width: 287px;
+    height: 230px;
+}
+
+.info{
+    padding: 15px 0 5px 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.price{
+    padding: 10px 0 18px 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.setCom{
+    padding: 0 70px 0 0;
+}
+
+.carModel2{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch; 
+}
+
+.nameModel{
+    padding: 0 140px 25px 352.67px; 
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.model2{
+    padding: 0 0 60px 0;
+}
+
+.set{
+    padding: 0 70px 25px 352.67px
+}
+
+.footerMerci{
+    background-color: black;
+}
+
+.contentFooter{
+    padding: 40px 0 40px 0;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.iconSM{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    padding: 0 150px 40px 150px;
+}
+
+.fb{
+    width: 120px;
+    height: 120px;
+}
+
+.twitter{
+    width: 95px;
+    height: 95px;
+}
+
+.ig{
+    width: 100px;
+    height: 100px; 
+}
+
+.yt{
+    width: 180px;
+    height: 120px;
+}
+
+.bottom{
+    padding: 10px 0 50px 0;
+    color: white;
+    text-align: center;
+}

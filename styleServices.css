@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%
+}
+
+.header{
+    height: 85vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)), url(./pictureHCIQuiz/formBG.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 1.5% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 80px;
+}
+
+.navbarMerci{
+    flex: 2;
+    text-align: right;
+}
+
+.navbarMerci ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.navbarMerci ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 4px 10px;
+}
+
+.navbarMerci ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.text{
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text h1{
+    margin: 10px 0 30px;
+    color: #FFFFFF;
+    font-size: 76px;
+}
+
+.bg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.whiteSpace{
+    position: relative;
+    justify-content: center;
+    padding: 83px 0;
+}
+
+.form{
+    position: relative;
+    justify-content: center;
+    height: max-content;
+    padding: 60px 120px; 
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+}
+
+.twoColumn{
+    position: relative;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.leftInput{
+    padding-right: 100px;
+}
+
+.space{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.setBox{
+    margin-bottom: 60px;
+}
+
+.textBox{
+    width: 416px;
+    height: 36px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gender label{
+    padding-right: 60px;
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-left: 6px;
+}
+
+.gender input{
+    width: 16px; 
+    height: 16px;
+}
+
+.genderTitle{
+    padding-bottom: 17px;
+    font-size: 18px;
+}
+
+.img{
+    padding-top: 40px;
+}
+
+.imageTitle{
+    padding-bottom: 17px;
+    font-size: 18px;
+}
+
+.terms{
+    padding-top: 40px;
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+    padding-bottom: 10px;
+}
+
+.allCheck{
+    margin: 10px 0 30px 0;
+    display: flex;
+}
+
+.check{
+    padding: 10px 0;
+    width: 18px;
+    height: 18px;
+    background: #C4C4C4;
+}
+
+.checkText{
+    font-size: 16px;
+    padding-top: 1px;
+    padding-left: 10px;
+}
+
+.submit{
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 60px 10px 10px;
+    font-size: 20px;
+    background-color: grey;
+    cursor: pointer;
+    border: 0;
+}
+
+.footerMerci{
+    background-color: black;
+}
+
+.contentFooter{
+    padding: 40px 0 40px 0;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.iconSM{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    padding: 0 150px 40px 150px;
+}
+
+.fb{
+    width: 120px;
+    height: 120px;
+}
+
+.twitter{
+    width: 95px;
+    height: 95px;
+}
+
+.ig{
+    width: 100px;
+    height: 100px; 
+}
+
+.yt{
+    width: 180px;
+    height: 120px;
+}
+
+.bottom{
+    padding: 10px 0 50px 0;
+    color: white;
+    text-align: center;
+}
+

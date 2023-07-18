@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.8)), url(./pictureHCIQuiz/aboutBg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 1.5% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 80px;
+}
+
+.navbarMerci{
+    flex: 2;
+    text-align: right;
+}
+
+.navbarMerci ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.navbarMerci ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 4px 10px;
+}
+
+.navbarMerci ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.text{
+    color: #FFFFFF;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 708px;
+}
+
+.textTitle{
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: lighter;
+    font-family: serif;
+    padding: 0 0 60px 0;
+}
+
+.contentTitle{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.transition{
+    background-color: rgb(3, 3, 3);
+    padding: 20px 0;
+}
+
+.background{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.8)), url(./pictureHCIQuiz/aboutBg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.contentTwo{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+    padding: 70px;
+}
+
+.founderPicture{
+    height: 576px;
+    width: 500px;
+    padding-bottom: 40px;
+}
+
+.titleFounder{
+    font-size: 42px;
+    color: white;
+    font-family: serif;
+    font-weight: lighter;
+    padding: 0 0 40px 0;
+}
+
+.contentFounder{
+    font-size: 26px;
+    color:rgb(66, 65, 65);
+    margin: 0 0 50px;
+    color: white;
+    text-align: justify;
+    width: 600px;
+}
+
+.contentAchievement{
+    padding: 40px 0 0 0;
+}
+
+.contentAchievementFont{
+    font-size: 46px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    font-family: serif;
+}
+
+.pictureAchievement{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+    padding: 50px 50px 70px 50px;
+}
+
+.ach{
+    width: 400px;
+    height: 400px;
+}
+
+.footerMerci{
+    background-color: black;
+}
+
+.contentFooter{
+    padding: 40px 0 40px 0;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.iconSM{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    padding: 0 150px 40px 150px;
+}
+
+.fb{
+    width: 120px;
+    height: 120px;
+}
+
+.twitter{
+    width: 95px;
+    height: 95px;
+}
+
+.ig{
+    width: 100px;
+    height: 100px; 
+}
+
+.yt{
+    width: 180px;
+    height: 120px;
+}
+
+.bottom{
+    padding: 10px 0 50px 0;
+    color: white;
+    text-align: center;
+}

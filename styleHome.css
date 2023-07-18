@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0)), url(./pictureHCIQuiz/merciBG2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 1.5% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 80px;
+}
+
+.navbarMerci{
+    flex: 2;
+    text-align: right;
+}
+
+.navbarMerci ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.navbarMerci ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 4px 10px;
+}
+
+.navbarMerci ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.text{
+    color: #FFFFFF;
+    width: 80%;
+    position: absolute;
+    top: 42%;
+    left: 10%;
+}
+
+.text p{
+    margin: 10px 0 30px;
+    color: #FFFFFF;
+    font-size: 52px;
+}
+
+.discover{
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: grey;
+    position: relative;
+    cursor: pointer;
+}
+
+.discover:hover{
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.contentHomba{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.9)), url(./pictureHCIQuiz/merciBG2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.contentTwo{
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    padding: 70px;
+}
+
+.half1{
+    height: 676px;
+    width: 600px;
+    padding-bottom: 64px;
+}
+
+.textHombaG{
+    padding: 0 0 50px 10px; 
+}
+
+.headHombaG{
+    width: 672px;
+    height: 230px;
+    font-size: 72px;
+    color: white;
+}
+
+.contentHombaG{
+    font-size: 26px;
+    color:rgb(66, 65, 65);
+    margin: 0 0 50px;
+    color: white;
+    text-align: justify;
+    width: 650px;
+}
+
+.shop{
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: grey;
+    position: relative;
+    cursor: pointer; 
+    position: absolute;
+}
+
+.shop:hover{
+    position: absolute;
+    border: solid black;
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.textTop{
+    background-color: #141414;
+}
+
+.topSell{
+    padding: 21px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pictureHomeTwo{
+    display: flex;
+    position: relative;
+}
+
+.nsx1{
+    width: 900px;
+    height: 100%;
+}
+
+.ast1{
+    width: 900px;
+    height: 100%;
+}
+
+.hoverPseudo::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.701);
+    opacity: 0;
+}
+
+.hoverPseudo:hover::before{
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.textFSX{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.textSBD{
+    position: absolute;
+    bottom: 30px;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px; 
+}
+
+.register{
+    background-color: #595B5C;
+    text-align: center;
+    padding: 21px;
+}
+
+.registerText{
+    padding: 21px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+
+.icon{
+    position: absolute;
+    height: 36px;
+    width: 40px
+}
+
+.footerMerci{
+    background-color: black;
+}
+
+.contentFooter{
+    padding: 40px 0 40px 0;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.iconSM{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    padding: 0 150px 40px 150px;
+}
+
+.fb{
+    width: 120px;
+    height: 120px;
+}
+
+.twitter{
+    width: 95px;
+    height: 95px;
+}
+
+.ig{
+    width: 100px;
+    height: 100px; 
+}
+
+.yt{
+    width: 180px;
+    height: 120px;
+}
+
+.bottom{
+    padding: 10px 0 50px 0;
+    color: white;
+    text-align: center;
+}
